@@ -1,9 +1,23 @@
+body{
+    background-color: yellow;
+}
 .outer-square {
-  /* your css goes here */
-}
-.inner-square {
-  /* your css goes here */
-}
-.circle {
-  /* your css goes here */
-}
+    width: 600px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  
+  .inner-square {
+    background-color: green;
+    margin: 10px;
+  }
+  
+
+  .circle {
+    margin: 10px;
+    background-color: blue; 
+    border-radius: 50%; 
+  }
+  
